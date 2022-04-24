@@ -6,9 +6,9 @@
 `set(int index, E e)`
 `size()`
 
-#### distinguish row i and col j
+#### distinguish row j and col i
 
-when traverse the 2d array awalys goes to col first,then row. so to prevent the confusion, always use j to represent col, and i for row.
+when traverse the 2d array awalys goes to col first,then row. so to prevent the confusion, always use i to represent col, and j for row.
 `arr[j][i]`
 `list.get(j).get(i)`
 
